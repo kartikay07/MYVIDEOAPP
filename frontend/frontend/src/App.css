@@ -1,16 +1,31 @@
 
 @media (max-width: 480px) {
-  /* Styles for mobile devices */
+  /* Ensure container takes the full width */
   .container {
     width: 100%;
-    padding: 1px;
+    padding: 8px; /* Use consistent padding for readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements horizontally */
   }
+
+  /* Style inputs and buttons for smaller screens */
   .input, button {
-    max-width: 50%;
-    padding: auto;
-    font-size: auto;
+    width: 90%; /* Make inputs/buttons almost full-width */
+    max-width: 100%; /* Prevent overflow */
+    padding: 12px; /* Ensure adequate padding */
+    font-size: 16px; /* Set a readable font size */
+    margin-bottom: 10px; /* Add spacing between elements */
+    box-sizing: border-box; /* Include padding in width */
+  }
+
+  /* Additional button-specific styling */
+  button {
+    text-align: center;
+    cursor: pointer;
   }
 }
+
 
 
 .App {
