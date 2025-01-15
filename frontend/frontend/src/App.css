@@ -3,7 +3,7 @@
   /* Styles for mobile devices */
   .container {
     width: 100%;
-    padding: 10px;
+    padding: 1px;
   }
   .input, button {
     padding: auto;
