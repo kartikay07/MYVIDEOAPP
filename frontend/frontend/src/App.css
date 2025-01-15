@@ -6,7 +6,7 @@
     padding: 1px;
   }
   .input, button {
-    max-width: auto;
+    max-width: 50%;
     padding: auto;
     font-size: auto;
   }
