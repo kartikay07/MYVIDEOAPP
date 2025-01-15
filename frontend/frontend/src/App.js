@@ -267,7 +267,7 @@ const App = () => {
           </div>
 
           {/* Login/Signup Form Group (aligned to the right) */}
-          <div className="ml-200">
+          <div className="ml-auto">
             {!token ? (
               <div className="flex flex-col sm:flex-row items-center justify-end space-y-4 sm:space-y-0 sm:space-x-4">
   <input
