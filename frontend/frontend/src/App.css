@@ -6,8 +6,8 @@
     padding: 10px;
   }
   .input, button {
-    padding: 1px;
-    font-size: 2px;
+    padding: auto;
+    font-size: auto;
   }
 }
 
